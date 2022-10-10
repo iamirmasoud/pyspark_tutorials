@@ -114,7 +114,7 @@ def MLClassifierDFPrep(
     numeric_inputs = []
     string_inputs = []
     for column in input_columns:
-        if str(indexed.schema[column].dataType) == "StringType":
+        if indexed.schema[column].dataType == StringType():
             indexer = StringIndexer(inputCol=column, outputCol=column + "_num")
             indexed = indexer.fit(indexed).transform(indexed)
             new_col_name = column + "_num"
@@ -487,7 +487,7 @@ def ClassTrainEval(classifier, features, classes, train, test):
             print("Lowest score is the least important")
             print(" ")
             featureimportances = BestModel.featureImportances.toArray()
-            print(featureImportances)
+            print(featureimportances)
 
             if Mtype in ("DecisionTreeClassifier"):
                 global DT_featureimportances

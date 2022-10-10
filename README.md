@@ -1,5 +1,40 @@
 # Handling Big Data for Machine Learning using PySpark with real-world projects
 
+### Preparing the environment
+**Note**: I have tested the codes on __Linux__. It can surely be run on Windows and Mac with some little changes.
+
+1. Clone the repository, and navigate to the downloaded folder.
+```
+git clone https://github.com/iamirmasoud/pyspark_tutorials.git
+cd pyspark_tutorials
+```
+
+2. Create (and activate) a new environment, named `spark_env` with Python 3.7. If prompted to proceed with the install `(Proceed [y]/n)` type y.
+
+	```shell
+	conda create -n spark_env python=3.7.10
+	source activate spark_env
+	```
+	
+	At this point your command line should look something like: `(spark_env) <User>:pyspark_tutorials <user>$`. The `(spark_env)` indicates that your environment has been activated, and you can proceed with further package installations.
+
+3. Before you can experiment with the code, you'll have to make sure that you have all the libraries and dependencies required to support this project. You will mainly need Python3.7+ and PySpark. You can install  dependencies using:
+```
+pip install -r requirements.txt
+```
+
+4. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
+```shell
+cd pyspark_tutorials
+```
+
+5. Open the directory of notebooks, using the below command. You'll see all files appear in your local environment; open the first notebook and follow the instructions.
+```shell
+jupyter notebook
+```
+
+6. Once you open any of the project notebooks, make sure you are in the correct `spark_env` environment by clicking `Kernel > Change Kernel > spark_env`.
+
 ### Repo Structure:
 ```
 ├── 1_Python vs PySpark

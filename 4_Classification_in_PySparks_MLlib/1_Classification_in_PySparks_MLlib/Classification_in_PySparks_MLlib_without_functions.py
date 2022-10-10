@@ -138,7 +138,7 @@ numeric_inputs = []
 string_inputs = []
 for column in input_columns:
     # First identify the string vars in your input column list
-    if str(indexed.schema[column].dataType) == "StringType":
+    if indexed.schema[column].dataType == StringType():
         # Set up your String Indexer function
         indexer = StringIndexer(inputCol=column, outputCol=column + "_num")
         # Then call on the indexer you created here
