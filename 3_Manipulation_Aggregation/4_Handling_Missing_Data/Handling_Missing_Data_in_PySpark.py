@@ -60,6 +60,7 @@ print(zomato.printSchema())
 
 
 from pyspark.sql.functions import *
+
 # Edit some var types
 from pyspark.sql.types import *
 

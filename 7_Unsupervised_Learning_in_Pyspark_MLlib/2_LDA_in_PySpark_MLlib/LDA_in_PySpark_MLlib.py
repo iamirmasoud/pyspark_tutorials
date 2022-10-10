@@ -37,11 +37,13 @@ spark
 # For pipeline development in case you need it (but we won't use it here)
 from pyspark.ml import Pipeline
 from pyspark.ml.clustering import LDA
+
 # from pyspark import SparkContext
 # from pyspark.sql import SQLContext
 # from pyspark.mllib.util import MLUtils
 from pyspark.ml.feature import *
 from pyspark.sql.functions import *
+
 # Read in dependencies
 # import string
 from pyspark.sql.types import *

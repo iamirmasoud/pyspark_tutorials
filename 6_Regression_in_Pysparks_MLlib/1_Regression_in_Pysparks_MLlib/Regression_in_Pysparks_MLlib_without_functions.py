@@ -58,10 +58,13 @@ spark
 # Read in dependencies
 
 from pyspark.ml.evaluation import *
+
 # For data prep
 from pyspark.ml.feature import StringIndexer, VectorAssembler
+
 # For training and evaluation
 from pyspark.ml.regression import *
+
 # To check for multicolinearity
 from pyspark.ml.stat import Correlation
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder

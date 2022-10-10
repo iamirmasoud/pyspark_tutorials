@@ -59,6 +59,7 @@ spark
 
 from pyspark.ml.classification import *
 from pyspark.ml.evaluation import *
+
 # Read in dependencies
 from pyspark.ml.feature import MinMaxScaler, StringIndexer, VectorAssembler
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
@@ -135,7 +136,7 @@ def MLClassifierDFPrep(
     numeric_inputs = []
     string_inputs = []
     for column in input_columns:
-        if str(indexed.schema[column].dataType) == "StringType":
+        if indexed.schema[column].dataType == StringType():
             indexer = StringIndexer(inputCol=column, outputCol=column + "_num")
             indexed = indexer.fit(indexed).transform(indexed)
             new_col_name = column + "_num"
