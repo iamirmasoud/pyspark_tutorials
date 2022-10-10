@@ -59,7 +59,6 @@ spark
 
 from pyspark.ml.classification import *
 from pyspark.ml.evaluation import *
-
 # Read in dependencies
 from pyspark.ml.feature import MinMaxScaler, StringIndexer, VectorAssembler
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder

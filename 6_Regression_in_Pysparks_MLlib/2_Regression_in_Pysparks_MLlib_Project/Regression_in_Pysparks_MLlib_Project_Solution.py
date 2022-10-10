@@ -496,10 +496,8 @@ def RegressTrainEval(regressor):
 
 
 from pyspark.ml.evaluation import *
-
 # Run!
 from pyspark.ml.regression import *
-
 # from pyspark.sql import functions as F
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
 

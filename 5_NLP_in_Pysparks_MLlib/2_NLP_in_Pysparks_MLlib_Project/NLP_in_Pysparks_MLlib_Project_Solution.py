@@ -43,7 +43,6 @@ spark
 
 from pyspark.ml.classification import NaiveBayes
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-
 # from pyspark.ml import Pipeline
 from pyspark.ml.feature import *  # CountVectorizer,StringIndexer, RegexTokenizer,StopWordsRemover
 from pyspark.sql.functions import *  # col, udf,regexp_replace,isnull

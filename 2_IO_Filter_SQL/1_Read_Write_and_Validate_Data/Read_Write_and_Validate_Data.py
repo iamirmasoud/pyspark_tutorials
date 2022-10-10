@@ -185,7 +185,8 @@ students.select("math score", "reading score", "writing score").summary(
 # In[ ]:
 
 
-from pyspark.sql.types import DateType, IntegerType, StringType, StructField, StructType
+from pyspark.sql.types import (DateType, IntegerType, StringType, StructField,
+                               StructType)
 
 # Next we need to create the list of Structure fields
 #     * :param name: string, name of the field.

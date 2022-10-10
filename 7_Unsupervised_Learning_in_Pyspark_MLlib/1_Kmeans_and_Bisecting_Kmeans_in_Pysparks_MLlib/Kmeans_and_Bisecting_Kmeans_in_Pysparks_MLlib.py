@@ -170,7 +170,6 @@ df_kmeans.limit(4).toPandas()
 
 
 import numpy as np
-
 # Find the best amount of clusters
 from pyspark.ml.clustering import KMeans
 from pyspark.ml.evaluation import ClusteringEvaluator
@@ -314,7 +313,6 @@ for center in centers:
 
 
 import numpy as np
-
 # Those are a little bit hard to read
 # Let's convert to a dataframe so we can add the column names
 import pandas as pd

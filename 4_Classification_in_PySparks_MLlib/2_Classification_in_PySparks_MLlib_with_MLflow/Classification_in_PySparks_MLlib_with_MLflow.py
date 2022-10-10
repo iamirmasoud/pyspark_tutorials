@@ -324,7 +324,6 @@ import warnings
 # Mlflow libaries
 import mlflow
 from mlflow import spark
-
 # Read in dependencies
 from pyspark.ml.classification import *
 from pyspark.ml.evaluation import *

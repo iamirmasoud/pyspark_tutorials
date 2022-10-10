@@ -196,7 +196,6 @@ print("Silhouette with squared euclidean distance = " + str(silhouette))
 centers = model.clusterCenters()
 
 import numpy as np
-
 # Then map the centers to their variable names
 import pandas as pd
 
