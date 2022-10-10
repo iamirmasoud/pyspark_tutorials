@@ -559,7 +559,6 @@ def ClassTrainEval(classifier, features, classes, train, test):
 from pyspark.ml.classification import *
 from pyspark.ml.evaluation import *
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
-from pyspark.sql import functions
 
 # Comment out Naive Bayes if your data still contains negative values
 classifiers = [
@@ -596,10 +595,6 @@ results.show(100, False)
 # You can also generate some more detailed diagnostics on individual classifiers using this function too if you want. The output is pretty extensive, so I wouldn't do more than one at a time if I were you.
 
 # In[14]:
-
-
-from pyspark.ml.classification import *
-from pyspark.ml.evaluation import *
 
 
 def ClassDiag(classifier):

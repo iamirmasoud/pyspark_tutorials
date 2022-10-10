@@ -54,7 +54,6 @@ spark
 
 # In[2]:
 
-
 # Read in functions we will need
 from pyspark.ml.feature import MinMaxScaler, StringIndexer, VectorAssembler
 from pyspark.sql.functions import *
@@ -662,6 +661,8 @@ run = create_run(experiment_name)
 # Count how many features you have
 features = final_data.select(["features"]).collect()
 features_count = len(features[0][0])
+class_count = final_data.select(countDistinct("label")).collect()
+classes = class_count[0][0]
 # Then use this number to specify the layers according to best practice
 layers = [features_count, features_count + 1, features_count, classes]
 # Instaniate the classifier
