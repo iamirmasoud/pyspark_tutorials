@@ -248,7 +248,7 @@ For this project we will be classifying songs based on a number of characteristi
 
 
 
-### 5. NLP_in_Pysparks_MLlib  - 
+### 5. NLP_in_Pysparks_MLlib
 #### 1_NLP_in_Pysparks_MLlib
 
 **Project - Kickstarter Project Success Prediction:** 
@@ -269,5 +269,24 @@ Indeed.com has just hired you to create a system that automatically flags suspic
 
 **Datasets:**
 1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
+
+### 6. Regression_in_Pysparks_MLlib
+#### 1_Regression_in_Pysparks_MLlib
+
+**Project - House Price Prediction in California**
+
+
+**Datasets:**
+1. [California Housing Prices Dataset](https://www.kaggle.com/camnugent/california-housing-prices)
+
+#### 2_Regression_in_Pysparks_MLlib_Project
+**Project - Cement Strength Prediction based on Ingredients:** 
+
+You have been hired as a consultant to a cement production company who wants to be able to improve their customer experience around a number of areas like being able to provide recommendations to customers on optimal amounts of certain ingredients in the cement making process and perhaps even create an application where users can input their own values and received a predicted cement strength!
+
+**Datasets:**
+1. [Yeh Concret Dataset](https://www.kaggle.com/maajdl/yeh-concret-data)
+
+
 
  
