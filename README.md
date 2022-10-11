@@ -1,4 +1,7 @@
-# Handling Big Data for Machine Learning using PySpark with real-world projects
+# Machine Learning for Big Data using PySpark with real-world projects
+
+### About this Repo
+This repository provides a set of self-study tutorials on Machine Learning for big data using [Apache Spark](https://spark.apache.org/) (PySpark) from basics (Dataframes and SQL) to advanced (Machine Learning Library (MLlib)) topics with practical real-world projects and datasets.
 
 ### Preparing the environment
 **Note**: I have tested the codes on __Linux__. It can surely be run on Windows and Mac with some little changes.
@@ -185,7 +188,86 @@ jupyter notebook
 └──────────
 ``` 
     
-    
-    
+## List of real-world projects and datasets
+Before run the python scripts and jupyter notebooks of each section, please download necessary datasets for each section from the list below and put them in a directory called `Datasets` next to the scripts. You can find more details about each dataset in the jupyter notebook files.
+
+### 2. IO_Filter_SQL
+
+#### 1_Read_Write_and_Validate_Data
+**Datasets:** 
+1. [Students Performance in Exams Dataset](https://www.kaggle.com/spscientist/students-performance-in-exams)
+2. [PGA Tour 2010-2018 Dataset](https://www.kaggle.com/bradklassen/pga-tour-20102018-data)
+
+#### 2_Search_and_Filter_DataFrames_in_PySpark
+**Datasets:** 
+1. [FIFA 2019 players and their attributes dataset](https://www.kaggle.com/karangadiya/fifa19) 
+
+#### 3_SQL_Options_in_Spark
+**Datasets:** 
+1. [Crime dataset for the Police Force Areas of England and Wales](https://www.kaggle.com/r3w0p4/recorded-crime-data-at-police-force-area-level)
+2. [Google Play Store Apps Dataset](https://www.kaggle.com/lava18/google-play-store-apps)
+
+### 3. Manipulation_Aggregation
+
+#### 1_Manipulating_Data_in_DataFrames
+**Datasets:** 
+1. [Daily Trending YouTube Videos Dataset](https://www.kaggle.com/datasnaek/youtube-new#USvideos.csv)
+2. [Extracted tweets from all the representatives (latest 200 as of May 17th 2018)](https://www.kaggle.com/kapastor/democratvsrepublicantweets#ExtractedTweets.csv)
+
+#### 2_Aggregating_DataFrames
+**Datasets:** 
+1. [Activity and Metrics for AirBNB bookers in NYC, NY for 2019 Dataset](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/data)
+
+#### 3_Joining_and_Appending_DataFrames
+**Datasets:** 
+1. [UW Madison Courses and Grades 2006-2017 Dataset](https://www.kaggle.com/Madgrades/uw-madison-courses)
+
+#### 4_Handling_Missing_Data
+**Datasets:** 
+1. [Dataset for aggregate rating of restaurants in Bengaluru India from Zomato](https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants)
+2. [New York City Taxi Trip - Hourly Weather Data](https://www.kaggle.com/meinertsen/new-york-city-taxi-trip-hourly-weather-data)
+
+### 4. Classification_in_PySparks_MLlib
+#### 1_Classification_in_PySparks_MLlib
+**Datasets:** 
+1. [Autistic Spectrum Disorder Screening Data for Adult](https://www.kaggle.com/faizunnabi/autism-screening)
+
+#### 2_Classification_in_PySparks_MLlib_with_MLflow
+**Datasets:** 
+1. [Autistic Spectrum Disorder Screening Data for Adult](https://www.kaggle.com/faizunnabi/autism-screening)
+
+#### 3_Classification_in_PySparks_MLlib_Project
+**Project - Genre classification:** 
+
+Have you ever wondered what makes us, humans, able to tell apart two songs of different genres? How we do we inherently know the difference between a pop song and heavy metal? This type of classification may seem easy for us, but it's a very difficult challenge for a computer to do. So the question is, could an automatic genre classification model be possible?
+For this project we will be classifying songs based on a number of characteristics into a set of 23 electronic genres. This technology could be used by an application like Pandora to recommend songs to users or just create meaningful channels. Super fun!
+
+**Datasets:**
+1. [Electronic Music Features Dataset](https://www.kaggle.com/datasets/caparrini/beatsdataset)
+
+
+
+
+### 5. NLP_in_Pysparks_MLlib  - 
+#### 1_NLP_in_Pysparks_MLlib
+
+**Project - Kickstarter Project Success Prediction:** 
+
+Kickstarter is an American public-benefit corporation based in Brooklyn, New York, that maintains a global crowdfunding platform, focused on creativity and merchandising. The company's stated mission is to "help bring creative projects to life". Kickstarter, has reportedly received more than $1.9 billion in pledges from 9.4 million backers to fund 257,000 creative projects, such as films, music, stage shows, comics, journalism, video games, technology and food-related projects.
+
+People who back Kickstarter projects are offered tangible rewards or experiences in exchange for their pledges. This model traces its roots to subscription model of arts patronage, where artists would go directly to their audiences to fund their work.
+
+The goal is to predict if a project will be or not to be able to get the money from their backers.
+
+**Datasets:**
+1. [Kickstarter Dataset](https://www.kaggle.com/oscarvilla/kickstarter-nlp)
+
+#### 2_NLP_in_Pysparks_MLlib_Project
+**Project - Indeed Real/Fake Job Posting Prediction:** 
+
+Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
+
+**Datasets:**
+1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
 
  
