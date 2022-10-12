@@ -306,19 +306,21 @@ We will be analyzing a collection of Christmas cooking recipes scraped from BBC 
 1. [Cooking Recipes from BBC Good Food](https://www.yanlong.app/gjbroughton/christmas-recipes)
 
 #### 3_GaussuanMixture_in_Pysparks_MLlib
-**Project - Indeed Real/Fake Job Posting Prediction:** 
+**Project - Customer Segmentation based on sales:** 
 
 Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
 
 **Datasets:**
-1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/kyanyoga/sample-sales-data)
+1. [Customer Sales Data](https://www.kaggle.com/kyanyoga/sample-sales-data)
 
 #### 4_Clustering_in_Pysparks_MLlib_Project
-**Project - Indeed Real/Fake Job Posting Prediction:** 
+**Project -  University Clustering for the Greater Good:** 
 
-Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
+You are a data scientist employed by the ABCDE Foundation, a non-profit organization whose mission is to increase college graduation rates for underprivileged populations. Through advocacy and targeted outreach programs, ABCDE strives to identify and alleviate barriers to educational achievement. ABCDE is driven by the belief that with the right supports, an increase in college attendance and completion rates can be achieved, thereby weakening the grip of the cycles of poverty and social immobility affecting many of our communities. ABCDE is committed to developing a more data driven approach to decision-making. As a prelude to future analyses, ABCDE has requested that you analyze the data to identify clusters of similar colleges and universities.
+
+Your task is to use cluster analysis to identify the groups of characteristically similar schools in the dataset.
 
 **Datasets:**
-1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
+1. [College Score Dataset](https://data.world/exercises/cluster-analysis-exercise-2)
 
  
