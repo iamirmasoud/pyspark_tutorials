@@ -298,7 +298,7 @@ We could also learn a bit more about our clustering by calling on various aggreg
 1. [Customers Credit Card Dataset for Clustering](https://www.kaggle.com/arjunbhasin2013/ccdata)
 
 #### 2_LDA_in_PySpark_MLlib
-**Project - Analyzing Cooking Recipes from BBC Good Food:** 
+**Project - Topic Modeling for Cooking Recipes from BBC Good Food:** 
 
 We will be analyzing a collection of Christmas cooking recipes scraped from BBC Good Food. We want to try to discover some additional themes amongst these recipes imagining that we want to create our own website that provides a more intelligent tagging system to recipes that are pulled from multiple data sources.
 
@@ -311,7 +311,7 @@ We will be analyzing a collection of Christmas cooking recipes scraped from BBC 
 Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
 
 **Datasets:**
-1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
+1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/kyanyoga/sample-sales-data)
 
 #### 4_Clustering_in_Pysparks_MLlib_Project
 **Project - Indeed Real/Fake Job Posting Prediction:** 
