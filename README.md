@@ -275,7 +275,6 @@ Indeed.com has just hired you to create a system that automatically flags suspic
 
 **Project - House Price Prediction in California**
 
-
 **Datasets:**
 1. [California Housing Prices Dataset](https://www.kaggle.com/camnugent/california-housing-prices)
 
@@ -287,6 +286,39 @@ You have been hired as a consultant to a cement production company who wants to 
 **Datasets:**
 1. [Yeh Concret Dataset](https://www.kaggle.com/maajdl/yeh-concret-data)
 
+### 7. Unsupervised_Learning_in_Pyspark_MLlib
+#### 1_Kmeans_and_Bisecting_Kmeans_in_Pysparks_MLlib
+**Project - Customer Segmentation:** 
 
+Use customers data to target marketing efforts! We could use clustering to target similar customer segments. For example, if we do some research about the groups and discover that one is mostly a certain social economic status and purchasing frequency, and offer them a cost savings package that could be beneficial to them. How cool would that be?!
+
+We could also learn a bit more about our clustering by calling on various aggregate statistics for each one of the clusters across each of the variables in our dataframe like this.
+
+**Datasets:**
+1. [Customers Credit Card Dataset for Clustering](https://www.kaggle.com/arjunbhasin2013/ccdata)
+
+#### 2_LDA_in_PySpark_MLlib
+**Project - Analyzing Cooking Recipes from BBC Good Food:** 
+
+We will be analyzing a collection of Christmas cooking recipes scraped from BBC Good Food. We want to try to discover some additional themes amongst these recipes imagining that we want to create our own website that provides a more intelligent tagging system to recipes that are pulled from multiple data sources.
+
+**Datasets:**
+1. [Cooking Recipes from BBC Good Food](https://www.yanlong.app/gjbroughton/christmas-recipes)
+
+#### 3_GaussuanMixture_in_Pysparks_MLlib
+**Project - Indeed Real/Fake Job Posting Prediction:** 
+
+Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
+
+**Datasets:**
+1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
+
+#### 4_Clustering_in_Pysparks_MLlib_Project
+**Project - Indeed Real/Fake Job Posting Prediction:** 
+
+Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
+
+**Datasets:**
+1. [Real/Fake Job Posting Prediction Dataset](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction)
 
  
