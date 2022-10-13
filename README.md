@@ -164,10 +164,10 @@ jupyter notebook
 │   │   ├── Datasets
 │   │   ├── LDA_in_PySpark_MLlib.ipynb
 │   │   └── LDA_in_PySpark_MLlib.py
-│   ├── 3_GaussuanMixture_in_Pysparks_MLlib
+│   ├── 3_GaussianMixture_in_Pysparks_MLlib
 │   │   ├── Datasets
-│   │   ├── GaussuanMixture_in_Pysparks_MLlib.ipynb
-│   │   └── GaussuanMixture_in_Pysparks_MLlib.py
+│   │   ├── GaussianMixture_in_Pysparks_MLlib.ipynb
+│   │   └── GaussianMixture_in_Pysparks_MLlib.py
 │   └── 4_Clustering_in_Pysparks_MLlib_Project
 │       ├── Clustering_in_Pysparks_MLlib_Project.ipynb
 │       ├── Clustering_in_Pysparks_MLlib_Project.py
@@ -305,7 +305,7 @@ We will be analyzing a collection of Christmas cooking recipes scraped from BBC 
 **Datasets:**
 1. [Cooking Recipes from BBC Good Food](https://www.yanlong.app/gjbroughton/christmas-recipes)
 
-#### 3_GaussuanMixture_in_Pysparks_MLlib
+#### 3_GaussianMixture_in_Pysparks_MLlib
 **Project - Customer Segmentation based on sales:** 
 
 Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
