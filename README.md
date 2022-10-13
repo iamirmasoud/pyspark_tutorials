@@ -323,4 +323,18 @@ Your task is to use cluster analysis to identify the groups of characteristicall
 **Datasets:**
 1. [College Score Dataset](https://data.world/exercises/cluster-analysis-exercise-2)
 
- 
+### 8. Frequent_Pattern_Mining_in_PySparks_MLlib
+#### 1_Frequent_Pattern_Mining_in_PySparks_MLlib
+**Project - Analyzing Participants in Personality Test** 
+
+**Datasets:**
+1. [Big Five Personality Test](https://www.kaggle.com/tunguz/big-five-personality-test#data-final.csv)
+
+#### 2_Frequent_Pattern_Mining_in_PySparks_MLlib_Project
+**Project - Market Basket Analysis:** 
+
+You are owing a supermarket mall and through membership cards, you have some basic data about your customers like Customer ID, age, gender, annual income and spending score. Spending Score is something you assign to the customer based on your defined parameters like customer behavior and purchasing data.
+You want to understand the customers like who can be easily grouped together so that a strategy can be provided to the marketing team to plan accordingly.
+
+**Datasets:**
+1. [Mall Customer Segmentation Data](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python)
