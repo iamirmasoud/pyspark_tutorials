@@ -308,7 +308,7 @@ We will be analyzing a collection of Christmas cooking recipes scraped from BBC 
 #### 3_GaussianMixture_in_Pysparks_MLlib
 **Project - Customer Segmentation based on sales:** 
 
-Indeed.com has just hired you to create a system that automatically flags suspicious job postings on its website. It has recently seen an influx of fake job postings that is negatively impacting its customer experience. Because of the high volume of job postings it receives every day, their employees don't have the capacity to check every posting, so they would like an automated system that prioritizes which postings to review before deleting it. The final task is to use the attached dataset to create an NLP algorithm which automatically flags suspicious posts for review.
+#### TODO: add description for this project
 
 **Datasets:**
 1. [Customer Sales Data](https://www.kaggle.com/kyanyoga/sample-sales-data)
