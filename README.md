@@ -308,7 +308,7 @@ We will be analyzing a collection of Christmas cooking recipes scraped from BBC 
 #### 3_GaussianMixture_in_Pysparks_MLlib
 **Project - Customer Segmentation based on sales:** 
 
-#### TODO: add description for this project
+In this project, we try to segment customers based on sample sales data, order info, sales, customer, shipping, etc.
 
 **Datasets:**
 1. [Customer Sales Data](https://www.kaggle.com/kyanyoga/sample-sales-data)
@@ -325,7 +325,7 @@ Your task is to use cluster analysis to identify the groups of characteristicall
 
 ### 8. Frequent_Pattern_Mining_in_PySparks_MLlib
 #### 1_Frequent_Pattern_Mining_in_PySparks_MLlib
-**Project - Analyzing Participants in Personality Test** 
+**Project - Analyzing Participants in Personality Test:** 
 
 **Datasets:**
 1. [Big Five Personality Test](https://www.kaggle.com/tunguz/big-five-personality-test#data-final.csv)
